@@ -1,0 +1,21 @@
+.listStyle{
+    text-decoration: none;
+}
+.tab {
+    padding: 8px 30px;
+    background-color: #f1f1f1;
+    cursor: grab;
+    user-select: none;
+    transition: background-color 0.4s ease;
+    border: none;
+    border-right: 1px solid #777777;
+    color: black;
+}
+
+.tab:hover {
+    background-color: #c6c6c6;
+}
+
+.activeTab {
+    border-top: 1px solid #7474ff;
+}
